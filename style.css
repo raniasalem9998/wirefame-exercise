@@ -111,17 +111,19 @@ article p:nth-child(3){
     top:915px;
     margin-top: 0px;
     left: 510px;
+    
+}
+article{
     overflow: scroll;
+    height: 250px;
 }
 #featured h2{
     margin: 0px;
 }
+
 button{
-    margin-left: 45px;
-}
-button{
-    
-    width: 350ms;
+    height: 30px;
+    width: 200px;
 }
 footer {
 margin-right: 0px;
