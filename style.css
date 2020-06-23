@@ -113,7 +113,7 @@ article p:nth-child(3){
     left: 510px;
     
 }
-article{
+#article2{
     overflow: scroll;
     height: 250px;
 }
