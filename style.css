@@ -43,7 +43,7 @@ main{
 
 
 
-#main-container{
+main{
     margin: auto;
     text-align: center;
     width: 960px;
@@ -52,7 +52,7 @@ main{
     /* position: relative; */
 }
 
-#main-container img{
+main img:nth-child(1){
     
     margin-top: 30px;
     margin-bottom: 30px;
@@ -80,6 +80,23 @@ article p:nth-child(2){
     top:510px;
     left: 300px;
 }
+
+article p:nth-child(2) img {
+    top: 0px;
+    margin-top: 0px;
+    position: relative;
+}
+article p:nth-child(1) img {
+    top: 0px;
+    margin-top: 0px;
+    position: relative;
+}
+article p:nth-child(3) img {
+    top: 0px;
+    margin-top: 0px;
+    position: relative;
+}
+
 article p:nth-child(3){
     position: absolute;
     width: 300px;
@@ -92,7 +109,7 @@ article p:nth-child(3){
     left: 630px;
 }
 
-.p{
+article div:nth-of-type(1){
     position: absolute;
     width:480px;
     height: 400px;
@@ -100,7 +117,7 @@ article p:nth-child(3){
     top:915px;
 }
 
-#featured {
+div:nth-of-type(2) {
     position: absolute;
     font-size: 30px;
     float: left;
@@ -113,18 +130,24 @@ article p:nth-child(3){
     left: 510px;
     
 }
-#article2{
+div:nth-of-type(2) article:nth-of-type(1){
     overflow: scroll;
     height: 250px;
 }
-#featured h2{
+div:nth-of-type(2) h2{
     margin: 0px;
 }
 
 button{
     height: 30px;
     width: 200px;
+    position: relative;
 }
+
+button:hover{
+background-color: darkcyan;
+}
+
 footer {
 margin-right: 0px;
 }
